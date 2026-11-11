@@ -112,6 +112,7 @@ $html = @"
     #portada{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:48px 24px;color:#fff;position:relative;background:radial-gradient(120% 90% at 50% 0%,#3a4f63 0%,#223241 45%,#141e28 100%)}
     #portada::after{content:"";position:absolute;left:0;right:0;bottom:0;height:8px;background:var(--accent-2)}
     .portada-inner{max-width:860px}
+    .logo-portada{display:block;width:min(220px,60vw);height:auto;margin:0 auto 22px;filter:drop-shadow(0 8px 22px rgba(0,0,0,.35))}
     .sello{display:inline-block;border:1px solid rgba(255,255,255,.45);border-radius:999px;padding:7px 18px;font-size:12px;letter-spacing:2.4px;text-transform:uppercase;color:#dfeaf2;margin-bottom:26px}
     #portada h1{font-family:var(--serif);font-size:clamp(34px,7vw,68px);line-height:1.05;margin:0 0 8px}
     .regla{width:140px;height:3px;background:var(--accent-2);margin:22px auto}
@@ -158,6 +159,7 @@ $html = @"
 <body>
 <section id="portada">
   <div class="portada-inner">
+    <img class="logo-portada" src="assets/marca_IPCH_Transparente_Vertical.png" alt="Iglesia Presbiteriana de Chile">
     <span class="sello">Documento histórico de la fe reformada</span>
     <h1>Confesión de Fe de Westminster</h1>
     <div class="regla"></div>
