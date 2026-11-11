@@ -8,18 +8,18 @@ Aplicación/libro web estático con:
 - Búsqueda de capítulos en el índice
 - Diseño responsive e imprimible
 
-## Estado del contenido
+## Contenido
 
-La estructura está completa con los 33 capítulos tradicionales de la Confesión. El **texto de cada capítulo está pendiente** de incorporarse desde la fuente:
+El texto fue incorporado desde la fuente provista (`Confesion de fe Westminster - 1647 1903.txt`) y se presenta en capítulos navegables dentro de `index.html`. La fuente incluye capítulos I–XXXV tal como aparecen en el documento suministrado.
 
-- `Confesion de fe Westminster - 1647 1903.pdf`
-
-Para completar el libro, reemplaza los bloques de contenido pendiente en `index.html` (o adapta la app para cargar el texto extraído/OCR).
+> Nota: la extracción/texto fuente puede contener artefactos de codificación menores heredados del archivo original.
 
 ## Uso
 
 Abre `index.html` en un navegador (doble clic). No requiere instalación ni servidor.
 
-## Fuente pendiente
+## Fuentes en el workspace
 
-Cuando el PDF fuente esté disponible en el workspace, se puede intentar extracción/OCR siguiendo el enfoque de `apps/estatuto-ipch/tools/` y luego poblar los capítulos.
+- `fuente/Confesion de fe Westminster - 1647 1903.txt` (texto incorporado)
+- `fuente/Confesion de fe Westminster - 1647 1903.pdf` (fuente original provista)
+- `build.ps1` (script usado para regenerar `index.html` desde el `.txt`)
